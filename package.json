@@ -1,0 +1,31 @@
+{
+  "name": "mean-ang2",
+  "version": "1.0.0",
+  "description": "mEAN STACK WITH ANGULAR 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arbhutale/Mean-Stack-Angular-2.git"
+  },
+  "keywords": [
+    "MEAn",
+    "Stack",
+    "Angular",
+    "2"
+  ],
+  "author": "B Anil Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arbhutale/Mean-Stack-Angular-2/issues"
+  },
+  "homepage": "https://github.com/arbhutale/Mean-Stack-Angular-2#readme",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "express": "^4.15.4",
+    "mongoose": "^4.11.6"
+  }
+}
