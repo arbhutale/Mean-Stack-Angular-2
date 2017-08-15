@@ -13,7 +13,7 @@ export class ProfileComponent implements OnInit {
   email;
 
   constructor(
-    private authService: AuthService
+   public authService: AuthService
   ) { }
 
   ngOnInit() {

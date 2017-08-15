@@ -11,7 +11,7 @@ import { AuthService } from '../../services/auth.service';
 })
 export class RegisterComponent implements OnInit {
 
-  form: FormGroup;
+  form;
   message;
   messageClass;
   processing = false;
@@ -22,7 +22,7 @@ export class RegisterComponent implements OnInit {
 
   constructor(
     private formBuilder: FormBuilder,
-    private authService: AuthService,
+    public authService: AuthService,
     private router: Router,
   ) { 
     

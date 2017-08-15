@@ -14,12 +14,12 @@ export class LoginComponent implements OnInit {
   messageClass;
   message;
   processing = false;
-  form: FormGroup;
+  form;
   previousUrl;
 
   constructor(
     private FormBuilder: FormBuilder,
-    private authService: AuthService,
+    public authService: AuthService,
     private router: Router,
     private authGuard: AuthGuard,
   ) {
